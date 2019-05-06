@@ -1,0 +1,43 @@
+xcuserdata
+*.xccheckout
+*.hmap
+*.ipa
+*.idea
+
+# OS X
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+profile
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+
+# Bundler
+.bundle
+
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+
+*/FBSnapshots/Failures/*
+
+/vendor
+
+fastlane/report.xml
+fastlane/test_output/*
+
+ide_build_start_time
